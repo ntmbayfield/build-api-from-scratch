@@ -32,6 +32,7 @@ function create(body) {
   if (type && size && color && designer && price) {
     const clothing = {id: uuid(), type, size, color, designer, price};
     clothes.push(clothing);
+    result = clothing;
   } else {
     errors.push('all fields are required.');
     result = {errors};
