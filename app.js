@@ -11,7 +11,7 @@ app.use(bodyParser.json())
 
 const clothingRouter = require('./src/routes/clothing');
 
-app.use('/clothing', clothingRouter);
+app.use('/clothes', clothingRouter);
 
 app.use((err, req, res, next) => {
   const status = err.status || 500
