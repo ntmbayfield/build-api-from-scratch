@@ -4,7 +4,8 @@
   "description": "checkpoint52",
   "main": "app.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "npm start"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/ntmbayfield/build-api-from-scratch/issues"
   },
-  "homepage": "https://github.com/ntmbayfield/build-api-from-scratch#readme"
+  "homepage": "https://github.com/ntmbayfield/build-api-from-scratch#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.2"
+  }
 }
