@@ -1,0 +1,19 @@
+{
+  "name": "build-api-from-scratch",
+  "version": "1.0.0",
+  "description": "checkpoint52",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntmbayfield/build-api-from-scratch.git"
+  },
+  "author": "Nyiema Bayfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntmbayfield/build-api-from-scratch/issues"
+  },
+  "homepage": "https://github.com/ntmbayfield/build-api-from-scratch#readme"
+}
